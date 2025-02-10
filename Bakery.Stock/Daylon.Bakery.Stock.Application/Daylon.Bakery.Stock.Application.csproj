@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="13.0.1" />
+    <PackageReference Include="FluentValidation" Version="11.11.0" />
+    <PackageReference Include="Microsoft.Extensions.Configuration.Abstractions" Version="9.0.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Daylon.Bakery.Stock.Communication\Daylon.Bakery.Stock.Communication.csproj" />
+    <ProjectReference Include="..\Daylon.Bakery.Stock.Domain\Daylon.Bakery.Stock.Domain.csproj" />
+    <ProjectReference Include="..\Daylon.Bakery.Stock.Infrastructure\Daylon.Bakery.Stock.Infrastructure.csproj" />
+  </ItemGroup>
+
+</Project>

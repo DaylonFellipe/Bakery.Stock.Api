@@ -1,0 +1,46 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35506.116
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Daylon.Bakery.Stock.Api", "Daylon.Bakery.Stock.Api.csproj", "{45248873-8F0D-49C2-9E30-47CB24ED848A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Daylon.Bakery.Stock.Application", "..\Daylon.Bakery.Stock.Application\Daylon.Bakery.Stock.Application.csproj", "{D6C4D512-D7F9-444B-8CFE-8EA9EC3FB91F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Daylon.Bakery.Stock.Domain", "..\Daylon.Bakery.Stock.Domain\Daylon.Bakery.Stock.Domain.csproj", "{231467BB-5571-4038-8A88-9D2194C746EF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Daylon.Bakery.Stock.Infrastructure", "..\Daylon.Bakery.Stock.Infrastructure\Daylon.Bakery.Stock.Infrastructure.csproj", "{99842C94-BEA8-4F8C-B370-9614C01F52AB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Daylon.Bakery.Stock.Communication", "..\Daylon.Bakery.Stock.Communication\Daylon.Bakery.Stock.Communication.csproj", "{9C59D2DA-4139-4B4F-B75D-13BB9D667231}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{45248873-8F0D-49C2-9E30-47CB24ED848A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{45248873-8F0D-49C2-9E30-47CB24ED848A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{45248873-8F0D-49C2-9E30-47CB24ED848A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{45248873-8F0D-49C2-9E30-47CB24ED848A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D6C4D512-D7F9-444B-8CFE-8EA9EC3FB91F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D6C4D512-D7F9-444B-8CFE-8EA9EC3FB91F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D6C4D512-D7F9-444B-8CFE-8EA9EC3FB91F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D6C4D512-D7F9-444B-8CFE-8EA9EC3FB91F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{231467BB-5571-4038-8A88-9D2194C746EF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{231467BB-5571-4038-8A88-9D2194C746EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{231467BB-5571-4038-8A88-9D2194C746EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{231467BB-5571-4038-8A88-9D2194C746EF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{99842C94-BEA8-4F8C-B370-9614C01F52AB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{99842C94-BEA8-4F8C-B370-9614C01F52AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{99842C94-BEA8-4F8C-B370-9614C01F52AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{99842C94-BEA8-4F8C-B370-9614C01F52AB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9C59D2DA-4139-4B4F-B75D-13BB9D667231}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9C59D2DA-4139-4B4F-B75D-13BB9D667231}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9C59D2DA-4139-4B4F-B75D-13BB9D667231}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9C59D2DA-4139-4B4F-B75D-13BB9D667231}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
